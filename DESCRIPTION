@@ -1,0 +1,11 @@
+Package: eventure
+Title: An Event DSL
+Version: 0.0.0.9000
+Authors@R: c(
+  person("Nathan", "Teetor", role = c("aut", "cre"), email = "nathanteetor@gmail.com"))
+Description: A domain specfic language to describe how to handle events.
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.0.2
+Roxygen: list(markdown = TRUE)
