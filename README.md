@@ -17,3 +17,27 @@ buttonInput(
     )
 )
 ```
+
+```R
+input_button(
+  id = "open_pane",
+  label = "Open",
+  .event %>%
+    target(
+      open_pane = pane_1
+    ) %>%
+    dispatch(
+      pane_1 = show()
+    ),
+  .click %>%
+    target(
+      open_pane = pane_1
+    )
+)
+```
+
+```R
+input_button_group(
+  id = ""
+)
+```

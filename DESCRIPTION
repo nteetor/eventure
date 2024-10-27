@@ -7,5 +7,5 @@ Description: A domain specfic language to describe how to handle events.
 License: GPL-3
 Encoding: UTF-8
 LazyData: true
-RoxygenNote: 7.0.2
+RoxygenNote: 7.3.2
 Roxygen: list(markdown = TRUE)
